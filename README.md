@@ -1,2 +1,2 @@
-# Design Mode in Python
+# Design Pattern in Python
 For future reference

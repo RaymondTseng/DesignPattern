@@ -81,8 +81,24 @@ class H1CarBuilder(AbstractCarBuilder):
         return self.h1_car
 
 
+class Director(object):
+    def __init__(self):
+        pass
+
+    def get_AH1Model(self):
+        h1_car_builder = H1CarBuilder()
+        h1_car_builder.set_sequence(["start", "stop"])
+        return h1_car_builder.get_car_model()
+
+    def get_BH1Model(self):
+        h1_car_builder = H1CarBuilder()
+        h1_car_builder.set_sequence(["start", "alarm", "stop"])
+        return h1_car_builder.get_car_model()
+
+
 if __name__ == "__main__":
-    h1_car_builder = H1CarBuilder()
-    h1_car_builder.set_sequence(["start", "stop"])
-    h1_car = h1_car_builder.get_car_model()
-    h1_car.run()
+    director = Director()
+    car_a = director.get_AH1Model()
+    car_b = director.get_BH1Model()
+    car_a.run()
+    car_b.run()
