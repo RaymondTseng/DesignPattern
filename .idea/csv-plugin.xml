@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../DesignPattern/chain.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DesignPattern/command.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../DesignPattern/mediator.py">
           <value>
             <Attribute>
