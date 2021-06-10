@@ -10,21 +10,21 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../DesignPattern/chain.py">
+        <entry key="$PROJECT_DIR$/chain.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../DesignPattern/command.py">
+        <entry key="$PROJECT_DIR$/command.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
             </Attribute>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../DesignPattern/mediator.py">
+        <entry key="$PROJECT_DIR$/mediator.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
@@ -46,6 +46,13 @@
           </value>
         </entry>
         <entry key="/factory.py">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/observer.py">
           <value>
             <Attribute>
               <option name="separator" value=":" />
